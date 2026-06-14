@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.2] — 2026-06-14
+### Added
+- Embedded the in-app **LIVE ARCHITECTURE** map screenshot in the README (also serves as the hackathon submission's required architecture diagram) + a screenshots/ gallery (reasoning trace, realm-tear, cinematic dice).
+- VOICEOVER.md — the 4-minute demo narration script, hackathon-aligned.
+### Changed
+- Gitignored the heavy final video render (kept on YouTube, not in git).
+
+
 ## [1.11.1] — 2026-06-13
 Reasoning front-and-center — the thing the Reasoning-Agents track is judged on is now the loudest thing on screen.
 

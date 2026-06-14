@@ -121,6 +121,14 @@ The result is a game that is also a **live, watchable demonstration of an Azure 
 
 Every turn is a real orchestration fan-out, not a single prompt. The Game Master is the reasoning hub; the companions are specialized agents; tools ground and resolve.
 
+RIFTWOVEN ships with a **live architecture map** built into the app — every node pings its service in real time:
+
+![RIFTWOVEN — Live Architecture: 45 parts, multi-agent orchestration, 14 Azure services live](screenshots/architecture-map.jpg)
+
+> *The in-app "THE LOOM — LIVE ARCHITECTURE" view — the orchestration core, tools & memory, Azure AI Foundry models, and the world layer, with the live request path traced across all 45 parts. (Open ⧉ Live Architecture in the app and hit "Trace a turn" to watch it animate.)*
+
+And the same flow as a logical diagram:
+
 ```mermaid
 flowchart TD
     P([🧑 Player action]) --> GM{{🧠 The Loom · Game Master<br/>orchestrator · narrator · world-builder}}

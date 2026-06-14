@@ -18,3 +18,7 @@ riftwoven-demo.webm
 Thumbs.db
 .vscode/
 *.log
+
+# heavy final render (kept local / on YouTube, not in git)
+riftwoven-demo-final.mp4
+voiceover/
