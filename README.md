@@ -92,7 +92,7 @@ The result is a game that is also a **live, watchable demonstration of an Azure 
 | | |
 |---|---|
 | **▶ Play it now** | **https://polite-cliff-075282b0f.7.azurestaticapps.net** — runs live Azure AI for everyone (no keys needed; a hosted "Community Loom" holds them server-side with daily caps). |
-| **🎥 Demo video** | [`riftwoven-demo-2min.mp4`](./riftwoven-demo-2min.mp4) — a 2-minute walkthrough of a full turn, the realm-tear, and the live reasoning trace. |
+| **🎥 Demo video** | https://youtu.be/5BEa1G5Qllg — a 4-minute walkthrough of a full turn, the realm-tear, and the live reasoning trace. |
 | **💻 Run locally** | Open [`index.html`](./index.html) in any modern browser. No build, no server, no dependencies. |
 
 > The public site is the same `index.html` deployed to **Azure Static Web Apps**, with managed Functions (`/api/*`) acting as a keyless relay so visitors get the real models without ever seeing a key.
