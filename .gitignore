@@ -1,0 +1,20 @@
+# dependencies (vendored into the deploy staging dir, never the repo)
+node_modules/
+api/**/node_modules/
+
+# secrets — keys live only in SWA app settings / localStorage, never in the repo
+*.env
+.env*
+*secret*
+*-live-link.txt
+local.settings.json
+
+# heavy raw demo captures (the trimmed 2-min cut is kept and referenced in the README)
+riftwoven-demo.mp4
+riftwoven-demo.webm
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
